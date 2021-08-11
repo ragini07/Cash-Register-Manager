@@ -1,0 +1,57 @@
+:root{
+    --primary-color: #FED7AA;
+    --secondary-color: #7C2D12;
+    --yellow-color : #FDE047;
+
+}
+body{
+    background-color: var(--primary-color);
+    font-weight: bold;
+   
+}
+.container{
+  background-color: var(--secondary-color);
+  color: white;
+  max-width: 35rem;
+  margin: auto;
+  padding: 2rem;
+
+}
+input{
+    margin: 1rem 0rem;
+    padding: 0.2rem;
+}
+button{
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin: 0.5rem 0rem;
+
+
+
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: black;
+  }
+  .no-of-notes{
+      background-color: white;
+  }
+  table{
+  width: 100%;
+  border-collapse: collapse;
+  display: none;
+  
+  
+  }
+
+  .validate{
+    color: var(--yellow-color);
+  }
+  #output-container{
+      display: none;
+  }
