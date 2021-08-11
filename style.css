@@ -1,27 +1,33 @@
-:root{
+:root {
     --primary-color: #FED7AA;
     --secondary-color: #7C2D12;
-    --yellow-color : #FDE047;
+    --yellow-color: #FDE047;
 
 }
-body{
+
+body {
     background-color: var(--primary-color);
     font-weight: bold;
-   
-}
-.container{
-  background-color: var(--secondary-color);
-  color: white;
-  max-width: 35rem;
-  margin: auto;
-  padding: 2rem;
 
 }
-input{
+
+.container {
+    background-color: var(--secondary-color);
+    color: white;
+    max-width: 35rem;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 8px 3px 8px rgba(46, 45, 45, 0.616);
+    padding-top: 2rem;
+
+}
+
+input {
     margin: 1rem 0rem;
     padding: 0.2rem;
 }
-button{
+
+button {
     border-radius: 0.2rem;
     padding: 0.5rem;
     background-color: var(--primary-color);
@@ -31,27 +37,33 @@ button{
 
 
 }
-table, td, th {
+
+table,
+td,
+th {
     border: 1px solid black;
     padding: 0.5rem;
     text-align: left;
     background-color: var(--primary-color);
     color: black;
-  }
-  .no-of-notes{
-      background-color: white;
-  }
-  table{
-  width: 100%;
-  border-collapse: collapse;
-  display: none;
-  
-  
-  }
+}
 
-  .validate{
+.no-of-notes {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    display: none;
+
+
+}
+
+.validate {
     color: var(--yellow-color);
-  }
-  #output-container{
-      display: none;
-  }
+}
+
+#output-container {
+    display: none;
+}
